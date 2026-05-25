@@ -1,7 +1,9 @@
 import { useState } from 'react'
-import './styles/global.css'
 import './app.css'
+import './styles/global.css'
+
 import Sidebar from './components/Sidebar'
+import CharacterView from './components/CharacterView'
 
 function App() {
     return (
@@ -10,7 +12,7 @@ function App() {
 
             <main className="main-content">
 
-                <h1>Goosekeep</h1>
+                <CharacterView />
 
             </main>
 

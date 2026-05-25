@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Marcellus&display=swap');
 :root {
   
   /* FONTS */
 
-  --font-display: "Cinzel", serif;
+  --font-display: "Marcellus", serif;
   --font-body: "Inter", sans-serif;
 
   /* BACKGROUNDS */
@@ -65,12 +64,19 @@
   --transition-normal: 0.25s ease;
 }
 
-h1, h2, h3 {
+h1, h2, h3{
   font-family: var(--font-display);
+  font-weight: normal;
+  color: var(--text-main);
 }
 
-body, p, input, button {
+body, p, input, button, li {
   font-family: var(--font-body);
+  color: var(--text-main);
+}
+
+span {
+  color: var(--text-secondary);
 }
 
 body{

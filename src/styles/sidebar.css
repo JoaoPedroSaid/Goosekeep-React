@@ -12,12 +12,9 @@
   border-color: var(--border-color);
 
   background-color: var(--bg-secondary);
-  color: var(--text-main);
+  
 }
 
-.sidebar button {
-    color: var(--text-main);
-}
 /* Top */
 
 .sidebar-top {
@@ -104,6 +101,8 @@ button {
   margin-top: 2rem;
 
   overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #555 transparent;
 }
 
 .sidebar-section {
@@ -113,8 +112,7 @@ button {
 }
 
 .section-title {
-  font-size: 0.85rem;
-  font-weight: 600;
+  font-size: 0.95rem;
 
   padding-left: 0.5rem;
 }

@@ -47,7 +47,7 @@ function Sidebar() {
                         className="icon"
                     />
 
-                    <span>Gerenciar campanhas</span>
+                    <p>Gerenciar campanhas</p>
 
                 </button>
 
@@ -277,7 +277,7 @@ function Sidebar() {
                         className="icon"
                     />
 
-                    <span>Pesquisar</span>
+                    <p>Pesquisar</p>
 
                 </button>
 
@@ -289,7 +289,7 @@ function Sidebar() {
                         className="icon"
                     />
 
-                    <span>Lixeira</span>
+                    <p>Lixeira</p>
 
                 </button>
 
