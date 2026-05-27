@@ -234,7 +234,7 @@ function CharacterView({ character, onUpdateCharacter, onExportAll, onImportAll 
                                         onClick={() => toggleCategory(cat.id)}
                                     >
                                         <img
-                                            src="/icons/chevron-down.png"
+                                            src={arrow}
                                             alt=""
                                             className={`content-icon arrow-small${openCategories[cat.id] ? ' arrow-small--open' : ''}`}
                                         />

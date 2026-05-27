@@ -1,6 +1,6 @@
 .character-view {
   flex: 1;
-  height: 100vh;
+  min-height: 0;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -68,6 +68,7 @@
 
 .character-content {
   flex: 1;
+  min-height: 0;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -138,7 +139,7 @@
 }
 
 .arrow-small--open {
-  transform: rotate(180deg);
+  transform: rotate(90deg);
 }
 
 /* ── Sections ── */
